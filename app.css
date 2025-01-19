@@ -1,0 +1,29 @@
+#name {
+    /* border: 2px solid rgba(171, 183, 182, 0.483);
+    border-top: none; */
+    font-size: small;
+    margin: 0;
+}
+
+#score-keeper {
+    /* border: 2px solid rgba(171, 183, 182, 0.483);
+    border-top: none;
+    border-bottom: none; */
+    margin: 0;
+}
+
+#buttons {
+    font-size: x-small;
+}
+
+#button-one {
+    background-color:#7ee4d3 ;
+}
+
+#button-two {
+    background-color:#8ec5eb ;
+}
+
+#button-reset {
+    background-color: #ee3e5d;
+}
