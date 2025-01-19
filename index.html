@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorekeeper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+ <div class="container-fluid d-flex justify-content-center">
+      <div id="score-keeper" class="col-12 col-md-4 ">  
+        <img src="pong.png" alt="ping pong" class="img-fluid col-12">
+        <h1 class="py-2 fw-bold shadow" id="name">Ping Pong Score Keeper</h1>
+            <div id="selector" class="py-3 shadow-sm">
+                <div class="fs-3 fw-bold">    
+                    <span id="score-player1">0</span> to <span id="score-player2">0</span>
+                </div>
+                <span>Use the buttons below to keep the score.</span>
+              <div id="options" class="pt-3">      
+                <label for="maxPoint" class="fw-bold">Playing To</label>
+                    <select name="maxPoint" id="maxPoint" class="rounded-5 text-center">
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="10">10</option>
+                    </select>
+              </div>      
+            </div>
+        <div id="buttons" class="d-flex container-fluid px-0">
+            <button id="button-one" class="flex-grow-1 col-4 text-white py-2 rounded-1 border-0 shadow-sm">+1 Player One</button>
+            <button id="button-two"class="flex-grow-1 col-4 text-white py-2 rounded-1 border-0 shadow-sm">+1 Player Two</button>
+            <button id="button-reset"class="flex-grow-1 col-4 text-white py-2 rounded-1 border-0 shadow-sm">Reset</button>
+        </div>
+    </div>  
+ </div>
+    <script src="app.js"></script>
+</body>
+</html>
